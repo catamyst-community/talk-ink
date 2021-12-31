@@ -91,6 +91,7 @@ function Compose() {
         name: values.name,
         content: values.content,
         channel: params.channelId,
+        tags: channelData.members,
       });
 
       deleteDraft();
